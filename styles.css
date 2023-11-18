@@ -6,9 +6,10 @@ body {
   }
   
   header {
-    background-color:rgb(0, 140, 255);
+    background-color:rgb(0 173 255 / 75%);
     color: #fff;
     padding: 15px 0;
+    position: relative;
   }
   
   nav {
@@ -46,5 +47,41 @@ body {
     align-items: center;
   }
   
-  
+  /* External CSS file or within <style> tags */
+/* Corrected CSS */
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 56%;
+  height: 100vh;
+  background-image: url('travel-tourism-background-concept-airplane-260nw-1615461409.jpg');
+  background-size: cover;
+  background-position: top right;
+  z-index: -1;
+}
+
+
+.image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-image: url('travel-tourism-background-concept-airplane-260nw-1615461409.jpg');
+  background-size: cover;
+  background-position: top right;
+  z-index: -1;
+}
+
+
+
+ 
   

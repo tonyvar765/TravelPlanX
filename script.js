@@ -1,4 +1,4 @@
-// Form Submission
+
 document.getElementById('itineraryForm').addEventListener('submit', function(e) {
     e.preventDefault();
     const destination = document.getElementById('destinationInput').value;
@@ -14,14 +14,14 @@ document.getElementById('itineraryForm').addEventListener('submit', function(e) 
     itineraryList.appendChild(listItem);
   }
   
-  // Simple Login Interface
+  
   document.getElementById('loginBtn').addEventListener('click', function() {
     const username = prompt('Enter username:');
     const password = prompt('Enter password:');
   
     if (username === 'user' && password === 'password') {
       alert('Login successful!');
-      // Additional login-related functionality...
+      
     } else {
       alert('Login failed. Please try again.');
     }

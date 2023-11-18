@@ -4,7 +4,7 @@ document.getElementById('itineraryForm').addEventListener('submit', function(e) 
     const activity = document.getElementById('activityInput').value;
     const budget = document.getElementById('budgetInput').value;
   
-    // Add the destination, activity, and budget to the itinerary list
+    
     addToItinerary(destination, activity, budget);
   });
   

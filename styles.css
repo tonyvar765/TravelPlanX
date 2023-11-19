@@ -47,8 +47,7 @@ body {
     align-items: center;
   }
   
-  /* External CSS file or within <style> tags */
-/* Corrected CSS */
+  
 body {
   margin: 0;
   padding: 0;
@@ -79,6 +78,13 @@ body {
   background-size: cover;
   background-position: top right;
   z-index: -1;
+}
+
+p{
+  font-size:26px ; 
+}
+h1{
+  font-size: 42px;
 }
 
 

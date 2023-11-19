@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     const password = document.getElementById('passwordInput').value;
   
     
-    if (username === 'user' && password === 'password') {
+    if (username === 'tony' && password === 'password') {
       alert('Login successful!');
      
       window.location.href = 'dashboard.html'; 
